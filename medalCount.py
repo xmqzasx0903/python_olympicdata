@@ -23,6 +23,7 @@ with open('data/OlympicsWinter.csv') as csvfile:
 				print('silver')
 				silvers.append(row[7])
 			elif row[7] == "Bronze":
+				print('bronze')
 				bronzes.append(row[7])
 				line_count += 1
 
